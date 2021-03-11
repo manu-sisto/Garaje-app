@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>garaje app</title>
+</head>
+<body>
+    <h1>GARAJE</h1>
+
+    <form id="fregistro">
+        <div>
+            <label for="patente">PATENTE:</label><br>
+            <input type="number" id="patente" name="patente" required><br>
+        </div>
+       <div>
+        <label for="ftipo">TIPO:</label>
+        <select name="ftipo" id="ftipo" form="tipo">
+          <option value="auto">auto</option>
+          <option value="pick-up">pick-up</option>
+          <option value="moto">moto</option>
+          <option value="bici">bici</option>
+        </select>
+       </div>
+       <div>
+           <button id="entra">ENTRA</button>
+           <button id="sale">SALE</button>
+       </div>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
