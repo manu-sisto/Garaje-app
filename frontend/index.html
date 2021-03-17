@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>garaje app</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>GARAJE</h1>
@@ -12,7 +13,7 @@
         <div>
             <label for="patente">PATENTE:</label><br>
             <input type="number" id="patente" name="patente" required><br>
-        </div>
+        </div><br>
        <div>
         <label for="ftipo">TIPO:</label>
         <select name="ftipo" id="ftipo" form="tipo">
@@ -21,12 +22,36 @@
           <option value="moto">moto</option>
           <option value="bici">bici</option>
         </select>
-       </div>
+       </div><br>
        <div>
-           <button id="entra">ENTRA</button>
-           <button id="sale">SALE</button>
+           <button type="submit" id="entra">ENTRA</button>
+           <button type="submit" id="sale">SALE</button>
        </div>
     </form>
+
+    <h3>en playa:</h3>
+
+    <table style="width:600px">
+        <tr>
+          <th>patente</th>
+          <th>tipo</th>
+          <th>hora</th>
+          <th>fecha</th>
+        </tr>
+        <tr>
+          <td>345</td>
+          <td>auto</td>
+          <td>11:20</td>
+          <td>11/03</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+
     <script src="index.js"></script>
 </body>
 </html>
